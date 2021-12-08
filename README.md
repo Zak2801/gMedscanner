@@ -1,4 +1,4 @@
 # gMedscanner
 A gmod medical scanner for SWRP.
 
-https://imgur.com/a/9vn5O7I
+https://i.imgur.com/BgsQ8CZ.png
