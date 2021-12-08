@@ -44,8 +44,7 @@ function ENT:Use(ply)
 	if ( !IsValid(self) or !IsValid(ply) or !IsValid(self.PodEnt) ) then return end
 	local button_id = self:OnButton( self.Owner )
 
-	local patient = table.Random( player.GetAll() )
-	--[[
+	--local patient = table.Random( player.GetAll() )
 	local patient = self.PodEnt:GetDriver()
 	if ( !IsValid(patient) ) then 
 		if DarkRP then
@@ -55,7 +54,6 @@ function ENT:Use(ply)
 		end
 		return 
 	end
-	--]]
 	
 	if ( patient:IsPlayer() and patient:Alive() and self.UsedCounter == 0 ) then 
 		self:EmitSound("ambient/machines/keyboard7_clicks_enter.wav")
