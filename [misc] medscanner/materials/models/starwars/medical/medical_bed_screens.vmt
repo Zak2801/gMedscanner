@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/starwars/medical/medical_bed_screens"
+	"$bumpmap" "models/starwars/medical/medical_bed_screens_n"
+	"$nocull" 1
+	"$translucent" 1
+}
